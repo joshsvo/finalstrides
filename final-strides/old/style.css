@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@@font-face {
+  font-family: BrixSans;
+  src: url(Brix-sans.otf);
+  font-weight: bold;
+}
+
+@@font-face {
+  font-family: GothamNarrow;
+  src: url(Gotham-Narrow.ttf);
+  font: bold;
+}
+
+body {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+.full-res {
+  max-width: 100%;
+  max-height: 150%;
+}
+
+
+
+
+
+
+.box {
+  width: 100%;
+  height: 50px;
+  background-color: #fedd32;
+  position: absolute;
+}
+
+.splash-elements {
+  display: block;
+  width:100%;
+  padding-top:20px;
+}
+
+.logo {
+/*max-width: 20%;
+  max-height: 20%;*/
+}
+
+.logo-left {
+  /*float: left;
+  width: 1000px;
+  padding-left: 150px;*/
+  display:inline-block;
+  width:49%;
+}
+
+
+
+.splash-text-right {
+  display: inline-block;
+  width:49%;
+  /*float: right;
+  width: 500px;
+  padding-right: 150px;*/
+}
+
+.splash-text {
+  display: inline-block;
+  font-family: "Brix Sans";
+  font-size: 30px;
+}
+
+
+.section-1 {
+  font-family: "Gotham narrow";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 100px;
+  text-transform: uppercase;
+  color: #0b5895;
+}
+
+span {
+  color: #fedd32;
+}
